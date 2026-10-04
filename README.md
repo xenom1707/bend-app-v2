@@ -1,14 +1,10 @@
-# Bend Calculator Android
+# Bend Calculator Android — Flat Repo
 
-Clean Android project created from scratch.
+This version deliberately keeps the repository minimal.
+The GitHub Action creates the Android project structure during the build.
 
-## GitHub build
-1. Create a new empty GitHub repository.
-2. Upload the CONTENTS of this ZIP to the repository root.
-3. Commit.
-4. Open Actions.
-5. Select **Build Android APK**.
-6. Run workflow.
-7. When the build is green, download the **BendCalculator-APK** artifact.
-
-The app itself is offline and loads `app/src/main/assets/index.html`.
+Upload the contents of this ZIP to a NEW empty GitHub repository.
+Required:
+- index.html
+- .github/workflows/build-apk.yml
+- README.md
